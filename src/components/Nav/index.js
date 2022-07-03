@@ -12,20 +12,20 @@ function Nav() {
     </h2>
     <nav>
       <ul className='list'>
-        <li className='link'>
-          <span href="#login" >
+        <li>
+          <a href="#login" className='link'>
             Login
-          </span>
+          </a>
         </li>
-        <li className='link'>
-         <span href='#signup'>
+        <li>
+         <a href='#signup' className='link'>
             Signup
-         </span>
+         </a>
         </li>
-        <li className='link'>
-            <span href='#recipes'>
+        <li>
+            <a href='#recipes' className='link'>
                 Recipes
-            </span>
+            </a>
         </li>
       </ul>
     </nav>

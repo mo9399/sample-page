@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Login() {
+function Signup() {
 
     return (
         <div className="login-box">
-  <h2>Login</h2>
+  <h2>Signup</h2>
   <form>
     <div className="user-box">
       <label>Username</label>
@@ -14,7 +14,7 @@ function Login() {
       <label>Password</label>
       <input className="form-input" />
     </div>
-    <a href="#login">
+    <a href="#signup">
       Submit
     </a>
   </form>
@@ -23,4 +23,4 @@ function Login() {
     );
   }
   
-  export default Login;
+  export default Signup;

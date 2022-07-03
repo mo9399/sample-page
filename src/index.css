@@ -66,13 +66,14 @@ code {
 }
 
 .title {
-  letter-spacing: 2px;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
+  background:url(./assests/fire2.gif);
+  font-family: fantasy;
   -webkit-text-fill-color: transparent;
-  
-}
+  -webkit-background-clip: text;
+  font-size: 100px;
+ }
+
+
 
 header {
   padding: 10px 20px;
@@ -109,6 +110,11 @@ header {
 
 .login-box .user-box {
   position: relative;
+  
+}
+
+.user-box {
+  background-color: transparent;
 }
 
 .login-box .user-box input {
@@ -133,13 +139,7 @@ header {
   transition: .5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
-  top: -20px;
-  left: 0;
-  color: #03e9f4;
-  font-size: 12px;
-}
+
 
 .login-box form a {
   position: relative;
