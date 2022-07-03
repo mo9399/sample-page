@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Nav() {
+  
 
   return (
     <header className='header'>
@@ -11,20 +12,20 @@ function Nav() {
     </h2>
     <nav>
       <ul className='list'>
-        <li>
-          <a href="#login" className='link'>
+        <li className='link'>
+          <span href="#login" >
             Login
-          </a>
+          </span>
         </li>
-        <li>
-         <a href='#signup' className='link'>
+        <li className='link'>
+         <span href='#signup'>
             Signup
-         </a>
+         </span>
         </li>
-        <li>
-            <a href='#recipes' className='link'>
+        <li className='link'>
+            <span href='#recipes'>
                 Recipes
-            </a>
+            </span>
         </li>
       </ul>
     </nav>

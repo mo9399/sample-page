@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
+import Login from './components/Login';
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-    </div>
+      <main>
+         <Login></Login>
+      </main>
+      </div>
   );
 }
 
